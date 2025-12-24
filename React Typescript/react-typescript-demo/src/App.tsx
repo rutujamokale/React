@@ -1,6 +1,7 @@
 import './App.css';
 import { Greet } from './components/Greet';
 import { Heading } from './components/Heading';
+import { Oscar } from './components/Oscar';
 import { Person } from './components/Person';
 import { PersonList } from './components/PersonList';
 import{Status}from './components/Status';
@@ -35,6 +36,7 @@ function App() {
       <PersonList names={nameList} />
       <Status status='success'/>
       <Heading>Placeholder text</Heading>
+      <Oscar>Oscar goes to Leonardo DiCaprio!</Oscar>
     </div>
   )
 }
