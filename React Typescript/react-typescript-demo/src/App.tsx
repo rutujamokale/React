@@ -8,6 +8,17 @@ function App() {
     last: 'Mokale'
   }
 
+  const nameList =[
+    {
+      first: 'Rutuja',
+      last: 'Mokale'
+    },
+    {
+      first: 'Rushi',
+      last: 'Mokale'
+    },
+  ]
+
   return (
     <div className="App">
       <Greet name="Rutuja" age={23} isloggedin={true} />
