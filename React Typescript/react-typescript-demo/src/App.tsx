@@ -1,8 +1,11 @@
 import './App.css';
 import { Greet } from './components/Greet';
+import { Heading } from './components/Heading';
 import { Person } from './components/Person';
 import { PersonList } from './components/PersonList';
 import{Status}from './components/Status';
+
+
 
 function App() {
   const personName = {
@@ -31,6 +34,7 @@ function App() {
       <Person name={personName} />
       <PersonList names={nameList} />
       <Status status='success'/>
+      <Heading>Placeholder text</Heading>
     </div>
   )
 }
