@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import transflowerLogo from './assets/transflower.jpeg'
+import roseImage from './assets/rose.jpeg'   
 import './App.css'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
+     
       </div>
 
       <h1>Vite + React</h1>
@@ -36,7 +38,8 @@ function App() {
         Click on the logos to learn more
       </p>
 
-      <h2>Flowers List 🌸</h2>
+      <h2>Flowers  🌸</h2>
+       <img src={roseImage} className="image " alt="rose image" />
       <h3> {flower.name} </h3>
       <p> Color: {flower.color} </p>
       <p> Price: ${flower.price} </p>
