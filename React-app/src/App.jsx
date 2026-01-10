@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import transflowerLogo from './assets/transflower.jpeg'
 import roseImage from './assets/rose.jpeg'   
 import './App.css'
+import Counter from "./Counter";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -43,6 +44,9 @@ function App() {
       <h3> {flower.name} </h3>
       <p> Color: {flower.color} </p>
       <p> Price: ${flower.price} </p>
+
+      <h2>Counter Component</h2>
+      <Counter />
     </>
   )
 }
