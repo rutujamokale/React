@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer style={{ padding: "1rem", background: "#f5f5f5", marginTop: "2rem" }}>
+    <footer style={{ padding: "1rem", background: "#f5f5f5", marginTop: "2rem" ,textAlign:"center" }}>
       <p>&copy; 2026 E-Commerce Store. All rights reserved.</p>
     </footer>
   );
