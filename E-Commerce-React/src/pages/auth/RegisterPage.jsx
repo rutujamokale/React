@@ -32,6 +32,8 @@ const RegisterPage = () => {
           onChange={handleChange}
           required
         />
+        <br>
+        </br>
         <input
           type="email"
           name="email"
@@ -40,6 +42,8 @@ const RegisterPage = () => {
           onChange={handleChange}
           required
         />
+        <br>
+        </br>
         <input
           type="password"
           name="password"
@@ -48,6 +52,8 @@ const RegisterPage = () => {
           onChange={handleChange}
           required
         />
+        <br>
+        </br>
         <button type="submit">Register</button>
       </form>
       <p style={{ marginTop: "1rem" }}>
