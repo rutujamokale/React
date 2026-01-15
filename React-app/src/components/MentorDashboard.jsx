@@ -11,17 +11,29 @@ const MentorDashboard = () => {
   // };
 
   return (
-    <div>
-      <div>
-    
-          <p>Transflower Mentor | <span>TFLAssessment Dashbord</span></p> 
-     
-        </div>
-        <div>
-          <p>Mentor: | <span>Ravi Tambade</span></p> 
-        </div>
-        <div>Active Cohorts: |<span>3</span></div>
+    <div className="dashboard-header">
+      <p>
+          <strong>Transflower Mentors</strong> | {""}<span> TFLAssessment Dashboard</span>
+      </p>  
+    <div >
+        <p>
+          <strong>Mentor:</strong><span>Ravi Tambade</span>
+           | {""}
+          <strong>Role:</strong><span>Lead mentor</span>
+        </p>
     </div>
+    <div>
+      <p>
+        <strong> Active Cohorts:</strong><span>3</span>
+        {""}
+        <strong>Learners:</strong><span>86</span>
+      </p>
+    </div>
+    </div>
+
+
+   
+
   );
 };
 
