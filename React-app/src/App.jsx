@@ -4,7 +4,7 @@ import transflowerLogo from './assets/transflower.jpeg'
 import roseImage from './assets/rose.jpeg'   
 import './App.css'
 import Counter from "./Counter";
-import MentorDashboard from "./components/MentorDashboard.jsx"
+import MentorData from "./components/MentorData.jsx"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -48,8 +48,8 @@ function App() {
 
       <h2>Counter Component</h2>
       <Counter />
-      <h2>MentorDashboard</h2>
-        <MentorDashboard />
+      <h2>MentorData</h2>
+        < MentorData/>
     </>
   )
 }
