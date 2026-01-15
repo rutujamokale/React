@@ -4,7 +4,7 @@ import transflowerLogo from './assets/transflower.jpeg'
 import roseImage from './assets/rose.jpeg'   
 import './App.css'
 import Counter from "./Counter";
-import MentorDashboard from "../MentorDashboard";
+import MentorDashboard from "./components/MentorDashboard.jsx"
 
 function App() {
   const [count, setCount] = useState(0)
