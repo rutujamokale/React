@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 export default function Sidebar() {
   return (
-    <div className="col-md-2 bg-dark text-white min-vh-100 p-3">
+    <div className="col-md-2 bg-dark text-white min-vh-100 p-3 margin-right-0">
       <h5>Transflower</h5>
       <ul className="nav flex-column mt-4">
         <li className="nav-item"><Link className="nav-link text-white" to="/dashboard">Dashboard</Link></li>
