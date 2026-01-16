@@ -1,21 +1,28 @@
-
-
-import './App.css'
-import Sidebar from './components/layout/Sidebar'
-import Header from './components/layout/Header'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Sidebar from './components/layout/Sidebar';
+import StudentDashboard from './pages/StudentDashboard';
+import Projects from './pages/Projects';
+import Assessments from './pages/Assessments';
+import MentorFeedback from './pages/MentorFeedback';
 
 function App() {
-
-
   return (
-    <>
-      <h2>sidebar</h2>
-      <Sidebar />
-
-      <h2>Header</h2>
-      <Header/>
-    </>
-  )
+    <Router>
+      <div className="d-flex">
+        <Sidebar />
+        <div className="flex-grow-1 p-3">
+          <Routes>
+            <Route path="/" element={<StudentDashboard />} />
+            <Route path="/dashboard" element={<StudentDashboard />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/assessments" element={<Assessments />} />
+            <Route path="/mentor-feedback" element={<MentorFeedback />} />
+          </Routes>
+        </div>
+      </div>
+    </Router>
+  );
 }
 
-export default App
+export default App;

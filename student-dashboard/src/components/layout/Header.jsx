@@ -1,21 +1,13 @@
-export default function Header() { 
+import React from 'react';
 
-    return (
-        <div className="card mb-3">
-            <div className="card-body d-flex justify-content-between">
-                <div>
-                    <h5>Student Name :Rutuja </h5>
-                    <strong>Target Role:Full Stack Devloper </strong>
-                </div>
-                <div>
-                    <span className="badge bg-success me-2">Readiness: 68%</span>
-                    <br></br>
-                    <span className="badge bg-warning text-dark">Confidence: Medium</span>
-                </div>
-            </div>
-        </div>
-    );
-
+function Header({ studentName, targetRole, readiness, confidence }) {
+  return (
+    <div className="mb-4">
+      <h4>Welcome, {studentName}</h4>
+      <p>Target Role: {targetRole} | Readiness: {readiness} | Confidence: {confidence}</p>
+      <hr />
+    </div>
+  );
 }
 
-
+export default Header;
