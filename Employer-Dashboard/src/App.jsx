@@ -12,13 +12,11 @@ function App() {
       <div className="d-flex">
         {/* Sidebar always visible */}
         <Sidebar />
-
         {/* Main content area changes based on route */}
         <div className="flex-grow-1 p-3">
           <Routes>
             {/* Default route */}
             <Route path="/" element={<EmployerDashboard />} />
-
             {/* Explicit routes */}
             <Route path="/EmployerDashboard" element={<EmployerDashboard />} />
             <Route path="/CandidateRanking" element={<CandidateRanking />} />
