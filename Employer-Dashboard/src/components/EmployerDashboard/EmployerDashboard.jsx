@@ -19,7 +19,6 @@ function EmployerDashboard() {
       trainable: 10,
       notReady: 7
     },
-
     rankings: [
       { name: "Nirjala Naik", score: "62%", status: "Trainable" },
       { name: "Sahil Kamble", score: "88%", status: "Employable" },
