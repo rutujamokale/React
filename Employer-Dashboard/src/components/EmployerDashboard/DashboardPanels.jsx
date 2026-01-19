@@ -6,5 +6,4 @@ function DashboardPanels() {
     </div>
   );
 }
-
 export default DashboardPanels;
