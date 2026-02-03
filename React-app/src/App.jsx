@@ -5,7 +5,8 @@ import roseImage from './assets/rose.jpeg'
 import './App.css'
 import Counter from "./Counter";
 import MentorData from "./components/MentorData.jsx"
-
+import TestData  from './components/TestData.jsx'    
+import MentorDashbord from './components/Dashbord/MentorDashbord.jsx' 
 function App() {
   const [count, setCount] = useState(0)
 
@@ -50,6 +51,10 @@ function App() {
       <Counter />
       <h2>MentorData</h2>
         < MentorData/>
+        <MentorDashbord/>
+
+       <h2>TEST DATA</h2>
+       <TestData/>
     </>
   )
 }

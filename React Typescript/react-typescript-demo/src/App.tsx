@@ -39,8 +39,8 @@ function App() {
       <Heading>Placeholder text</Heading>
       <Oscar>Oscar goes to Leonardo DiCaprio!</Oscar>
       <Button 
-      handleClick={()=>{
-        return console.log("button clicked");
+      handleClick={(event,id)=>{
+        return console.log("button clicked",event);
       }
     }
       />

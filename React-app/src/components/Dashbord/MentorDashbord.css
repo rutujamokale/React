@@ -1,0 +1,41 @@
+.dashboard-card {
+  width: 600px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin-top: 2rem;
+  margin-left: 30%;
+}
+
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #333;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+  justify-content: center;
+}
+
+.dashboard-header h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.flower {
+  font-size: 22px;
+  margin-right: 8px;
+}
+
+.dashboard-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}

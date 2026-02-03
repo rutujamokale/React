@@ -10,7 +10,7 @@ function LearningPathTimeline() {
 
 
     return (
-        <div className='card mb-3'>
+        <div className='card mb-3 justify-align:center'>
             <div className='card-header'>Learning Path</div>
             <div>
                 {modules.map((module, idx) => (
