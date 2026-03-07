@@ -1,15 +1,7 @@
-
-import ProblemStatements from './components/problemstatement';
+import AddTechnology from './components/AddTechnology';
 
 function App() {
-
-  return (
-    <>
-      <div>
-        <ProblemStatements />
-      </div>
-    </>
-  )
+  return <AddTechnology />;
 }
 
-export default App
+export default App;
